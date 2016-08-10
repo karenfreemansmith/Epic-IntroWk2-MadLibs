@@ -1,3 +1,10 @@
 #story {
   display: none;
 }
+.container {
+  max-width: 600px;
+}
+
+body {
+  margin-top: 200px;
+}

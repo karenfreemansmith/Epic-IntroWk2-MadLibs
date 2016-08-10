@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    $(".animal").append("Goose");
-    $(".food").append("egg");
+    $('#blanks').hide();
+    $(".animal").text($("input#animal").val());
+    $(".food").text($("input#food").val());
     $("#story").show();
 
      event.preventDefault();
